@@ -7,7 +7,6 @@ box-sizing: inherit;
 }
 
 * {
-border: 1px solid red;
 text-align: center;
 font-family: Roboto, Arial;
 margin: 0;
@@ -67,6 +66,7 @@ text-align:left;
 div p {
 font-size: 18px;
 color: #E5E7EB;
+margin: 5px 0 10px 0;
 }
 
 div h2 {
@@ -75,10 +75,13 @@ font-weight: bold;
 }
 
 button {
-padding: 3px 10px;
+padding: 5px 10px;
 border: none;
 border-radius: 3px;
+color: #FFFFFF;
 background-color: #3882F6;
+font-weight: bold;
+border: 2px #E5E7EB solid;
 }
 
 .display {
@@ -116,3 +119,53 @@ font-size: 16px;
 margin: 5px 15px 0 15px;
 text-align: center;
 }
+
+.quote {
+padding: 50px 100px 50px 100px;
+background-color: #E5E7EB;
+color: #1F2937;
+font-size: 30px;
+font-weight: 300;
+font-style: italic;
+}
+
+.blockquote {
+margin-bottom: 20px
+}
+
+.actioncall {
+background-color: #F9FAF8;
+}
+
+.message {
+margin: 10%;
+display: flex;
+justify-content: space-between;
+padding: 30px 80px 30px 80px;
+align-items: center;
+background-color: #3882F6;
+color: #E5E7EB;
+border-radius: 6px;
+}
+
+.message p {
+font-size: 16px;
+}
+
+.message h4 {
+text-align: left;
+}
+
+.actioncall button {
+border: 2px #E5E7EB solid;
+font-weight: bold;
+}
+
+footer {
+background-color: #1F2937;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
